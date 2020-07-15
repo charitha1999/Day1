@@ -1,0 +1,43 @@
+//JAVASCRIPT DATATYPES
+JavaScript variables can hold many data types: numbers, strings, objects 
+var length = 16;                               // Number
+var lastName = "Johnson";                      // String
+var x = {firstName:"John", lastName:"Doe"};    // Object
+
+
+//JavaScript Types are Dynamic
+JavaScript has dynamic types. 
+This means that the same variable can be used to hold different data types:
+
+var x;           // Now x is undefined
+x = 5;           // Now x is a Number
+x = "John";      // Now x is a String
+
+
+//JavaScript Strings
+A string (or a text string) is a series of characters like "John Doe".
+Strings are written with quotes. You can use single or double quotes:
+
+var carName1 = "Volvo XC60";   // Using double quotes
+var carName2 = 'Volvo XC60';   // Using single quotes
+
+
+//JavaScript Numbers
+JavaScript has only one type of numbers.
+Numbers can be written with, or without decimals:
+
+var x1 = 34.00;     // Written with decimals
+var x2 = 34;        // Written without decimals
+
+
+
+
+
+//JavaScript Booleans
+Booleans can only have two values: true or falsee
+
+var x = 5;
+var y = 5;
+var z = 6;
+(x == y)       // Returns true
+(x == z)       // Returns false
